@@ -14,3 +14,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Wunderbar, dass du ein Issue gemacht hast :)"
           pr-message: "Danke für deinen pull-request! :)"
+          push-message: "Super! Ein push-request! :)"
