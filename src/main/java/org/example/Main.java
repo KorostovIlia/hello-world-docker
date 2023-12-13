@@ -3,7 +3,7 @@ import static java.lang.String.format;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-
+        System.out.println ("Start!");
         int count =0;
         while (true) {
             Thread.sleep(1000);
