@@ -1,6 +1,6 @@
 name: Begrüßung
 
-on: [pull_request_target, issues, push]
+on: [pull_request_target, issues]
 
 jobs:
   greeting:
@@ -14,4 +14,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "Wunderbar, dass du ein Issue gemacht hast :)"
           pr-message: "Danke für deinen pull-request! :)"
-          push-message: "Super! Ein push-request! :)"
+
