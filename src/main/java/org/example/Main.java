@@ -6,7 +6,7 @@ public class Main {
 
         int count =0;
         while (true) {
-            Thread.sleep(2*1000);
+            Thread.sleep(1000);
             System.out.println(format("App running forever... %d", count++));
         }
     }
