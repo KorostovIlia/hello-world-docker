@@ -15,3 +15,9 @@ jobs:
           issue-message: "Wunderbar, dass du ein Issue gemacht hast :)"
           pr-message: "Danke für deinen pull-request! :)"
 
+
+      - uses: cinotify/github-action@main
+        with:
+          to: 'ilia.korostov@gmail.com'
+          subject: 'Es gab ein pull-request oder ein issue'
+          body: 'This is a notification from GitHub actions. Hallo!!! :)'
